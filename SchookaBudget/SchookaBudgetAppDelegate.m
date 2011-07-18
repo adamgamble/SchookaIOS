@@ -7,6 +7,7 @@
 //
 
 #import "SchookaBudgetAppDelegate.h"
+#import "LoginController.h"
 
 @implementation SchookaBudgetAppDelegate
 
@@ -16,6 +17,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    LoginController *loginController = [[LoginController alloc] init];
+    [[self window] setRootViewController:loginController];
+    
+    [loginController release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
