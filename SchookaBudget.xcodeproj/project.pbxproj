@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F912A513D494EC00910002 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F912A413D494EC00910002 /* UIKit.framework */; };
+		86F912A713D494EC00910002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F912A613D494EC00910002 /* Foundation.framework */; };
+		86F912A913D494EC00910002 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F912A813D494EC00910002 /* CoreGraphics.framework */; };
+		86F912AF13D494EC00910002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F912AD13D494EC00910002 /* InfoPlist.strings */; };
+		86F912B213D494EC00910002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F912B113D494EC00910002 /* main.m */; };
+		86F912B513D494EC00910002 /* SchookaBudgetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F912B413D494EC00910002 /* SchookaBudgetAppDelegate.m */; };
+		86F912B813D494EC00910002 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F912B613D494EC00910002 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86F912A013D494EC00910002 /* SchookaBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchookaBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F912A413D494EC00910002 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86F912A613D494EC00910002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86F912A813D494EC00910002 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86F912AC13D494EC00910002 /* SchookaBudget-Info.plist */ = {isa = PBXFileReference; path = "SchookaBudget-Info.plist"; sourceTree = "<group>"; };
+		86F912AE13D494EC00910002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86F912B013D494EC00910002 /* SchookaBudget-Prefix.pch */ = {isa = PBXFileReference; path = "SchookaBudget-Prefix.pch"; sourceTree = "<group>"; };
+		86F912B113D494EC00910002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F912B313D494EC00910002 /* SchookaBudgetAppDelegate.h */ = {isa = PBXFileReference; path = SchookaBudgetAppDelegate.h; sourceTree = "<group>"; };
+		86F912B413D494EC00910002 /* SchookaBudgetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchookaBudgetAppDelegate.m; sourceTree = "<group>"; };
+		86F912B713D494EC00910002 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F9129D13D494EC00910002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F912A513D494EC00910002 /* UIKit.framework in Frameworks */,
+				86F912A713D494EC00910002 /* Foundation.framework in Frameworks */,
+				86F912A913D494EC00910002 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F9129513D494EC00910002 = {
+			isa = PBXGroup;
+			children = (
+				86F912AA13D494EC00910002 /* SchookaBudget */,
+				86F912A313D494EC00910002 /* Frameworks */,
+				86F912A113D494EC00910002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F912A113D494EC00910002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F912A013D494EC00910002 /* SchookaBudget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F912A313D494EC00910002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F912A413D494EC00910002 /* UIKit.framework */,
+				86F912A613D494EC00910002 /* Foundation.framework */,
+				86F912A813D494EC00910002 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86F912AA13D494EC00910002 /* SchookaBudget */ = {
+			isa = PBXGroup;
+			children = (
+				86F912B313D494EC00910002 /* SchookaBudgetAppDelegate.h */,
+				86F912B413D494EC00910002 /* SchookaBudgetAppDelegate.m */,
+				86F912B613D494EC00910002 /* MainWindow.xib */,
+				86F912AB13D494EC00910002 /* Supporting Files */,
+			);
+			path = SchookaBudget;
+			sourceTree = "<group>";
+		};
+		86F912AB13D494EC00910002 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F912AC13D494EC00910002 /* SchookaBudget-Info.plist */,
+				86F912AD13D494EC00910002 /* InfoPlist.strings */,
+				86F912B013D494EC00910002 /* SchookaBudget-Prefix.pch */,
+				86F912B113D494EC00910002 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F9129F13D494EC00910002 /* SchookaBudget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F912BB13D494EC00910002 /* Build configuration list for PBXNativeTarget "SchookaBudget" */;
+			buildPhases = (
+				86F9129C13D494EC00910002 /* Sources */,
+				86F9129D13D494EC00910002 /* Frameworks */,
+				86F9129E13D494EC00910002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchookaBudget;
+			productName = SchookaBudget;
+			productReference = 86F912A013D494EC00910002 /* SchookaBudget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F9129713D494EC00910002 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 86F9129A13D494EC00910002 /* Build configuration list for PBXProject "SchookaBudget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86F9129513D494EC00910002;
+			productRefGroup = 86F912A113D494EC00910002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F9129F13D494EC00910002 /* SchookaBudget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F9129E13D494EC00910002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F912AF13D494EC00910002 /* InfoPlist.strings in Resources */,
+				86F912B813D494EC00910002 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F9129C13D494EC00910002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F912B213D494EC00910002 /* main.m in Sources */,
+				86F912B513D494EC00910002 /* SchookaBudgetAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86F912AD13D494EC00910002 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F912AE13D494EC00910002 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86F912B613D494EC00910002 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F912B713D494EC00910002 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F912B913D494EC00910002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86F912BA13D494EC00910002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		86F912BC13D494EC00910002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchookaBudget/SchookaBudget-Prefix.pch";
+				INFOPLIST_FILE = "SchookaBudget/SchookaBudget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86F912BD13D494EC00910002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SchookaBudget/SchookaBudget-Prefix.pch";
+				INFOPLIST_FILE = "SchookaBudget/SchookaBudget-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F9129A13D494EC00910002 /* Build configuration list for PBXProject "SchookaBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F912B913D494EC00910002 /* Debug */,
+				86F912BA13D494EC00910002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F912BB13D494EC00910002 /* Build configuration list for PBXNativeTarget "SchookaBudget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F912BC13D494EC00910002 /* Debug */,
+				86F912BD13D494EC00910002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F9129713D494EC00910002 /* Project object */;
+}
